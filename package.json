@@ -1,0 +1,21 @@
+{
+  "name": "userbase-database-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc-fixed-types": "tsc index.ts --strict --noEmit --target ESNEXT --module commonjs --typeRoots 'custom-types'"
+  },
+  "keywords": [],
+  "author": "Mike Henderyckx",
+  "license": "ISC",
+  "dependencies": {
+    "userbase-js": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.6",
+    "typescript": "4.0.5"
+  }
+}
