@@ -1,7 +1,10 @@
 # userbase-database-types
 
-## index.ts
+```npm install```
+
+## [index.ts](index.ts)
 10 userbase functions which requires at least **databaseName** or **databaseId**
+The functions in [index.ts](index.ts) don't have one of both parameters.
 
 ```npm run tsc:userbase```
 
@@ -9,8 +12,10 @@ No type errors.
 
 ---
 
-## suggestion.ts
-1 example **insertItem** function with possible improved typing
+## [suggestion.ts](suggestion.ts)
+**insertItem** function with possible improved typing.
+- 2 examples with correct parameters.
+- 1 example without **databaseName** & **databaseId** throwing an error
 
 ```npm run tsc:suggestion```
 
