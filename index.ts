@@ -1,5 +1,4 @@
 import userbase from "userbase-js";
-// const userbase = require("userbase-js");
 
 const {
     openDatabase,
