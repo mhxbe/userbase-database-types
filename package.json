@@ -5,8 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc",
-    "tsc-fixed-types": "tsc index.ts --strict --noEmit --target ESNEXT --module commonjs --typeRoots 'custom-types'"
+    "tsc-userbase": "tsc index.ts --noEmit",
+    "tsc-suggestion": "tsc suggestion.ts --noEmit"
   },
   "keywords": [],
   "author": "Mike Henderyckx",
